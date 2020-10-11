@@ -89,7 +89,7 @@ public class Planet {
             return this;
         }
 
-        public Planet.PlanetBuilder age(Long radius) {
+        public Planet.PlanetBuilder radius(Long radius) {
             this.radius = radius;
             return this;
         }
